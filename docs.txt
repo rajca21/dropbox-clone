@@ -1,0 +1,34 @@
+-- Installing
+npx create-next-app@latest dropbox
+(TypeScript, ESlint, TailwindCSS - Yes)
+
+-- Starting the app
+npm run dev
+
+-- Additional Dependencies
+npm install @clerk/nextjs
+
+npx shadcn-ui@latest init
+npm install next-themes
+npx shadcn-ui@latest add dropdown-menu
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add table
+npm install @tanstack/react-table
+npx shadcn-ui@latest add skeleton
+npx shadcn-ui@latest add dialog
+npx shadcn-ui@latest add input
+
+npm install --save react-dropzone
+
+npm install firebase
+npm install --save react-firebase-hooks
+
+npm install pretty-bytes
+npm i react-file-icon
+npm i --save-dev @types/react-file-icon
+
+npm install zustand
+
+npm i react-hot-toast
+
+npm i -g vercel
